@@ -1,0 +1,80 @@
+Awesome submission ! :tada: You've done a great job of implementing a Convolutional Neural Network. Your understanding and clarity of concepts of how CNNs work is vividly depicted here.
+
+If you are curious/want to learn more, I recommend you to take a look at the links mentioned below:
+CNN's for Visual Recognition
+Building an Image Classifier 
+Large Scale Image Recognition using CNN's
+Transfer Learning
+CNN Tricks
+Keep learning ! :v:
+
+Files Submitted
+The submission includes all required files.
+
+All the necessary files are included :thumbsup:
+
+Step 1: Detect Humans
+The submission returns the percentage of the first 100 images in the dog and human face datasets with a detected human face.
+
+The submission opines whether Haar cascades for face detection are an appropriate technique for human detection.
+
+Reasonable arguments provided! :thumbsup:
+
+Further resources:
+
+Face Detection using OpenCV
+Haar caascade classifiers
+Step 2: Detect Dogs
+The submission returns the percentage of the first 100 images in the dog and human face datasets with a detected dog.
+
+Your values for true positives and false positives are acceptable. Superb work in getting the correct percent of dogs and humans!
+
+Step 3: Create a CNN to Classify Dog Breeds (from Scratch)
+The submission specifies a CNN architecture.
+
+Good job discussing the architecture of your CNN.
+
+Some suggestions for improvement:
+
+You can use batch normalisation to further improve the performance of your model. BatchNorm avoids "internal covariate shift" as it minimises the effect of weights and parameters in successive forward and back pass on the initial data normalisation done to make the data comparable across features as explained here
+This stackexchange question has some ideas on how to improve for architecture for better accuracy.
+The submission specifies the number of epochs used to train the algorithm.
+
+Reasonable choice on number of epochs !! Try experimenting with different values for number of epochs and see how the performance of the network varies.
+
+Nice to know:
+
+To not worry about manually tuning the number of epochs or worry about overfitting, I recommend using an early stopping callback that Keras provides. Early stopping will automatically end training based on some specified rule, such as the accuracy not improving after a certain number of epochs. Take a look at Keras' callback documentation for more information
+The trained model attains at least 1% accuracy on the test set.
+
+Step 5: Create a CNN to Classify Dog Breeds
+The submission downloads the bottleneck features corresponding to one of the Keras pre-trained models (VGG-19, ResNet-50, Inception, or Xception).
+
+I would suggest you to try different options for pre-trained models to see if you can increase the accuracy.
+
+The submission specifies a model architecture.
+
+The submission details why the chosen architecture succeeded in the classification task and why earlier attempts were not as successful.
+
+The submission compiles the architecture by specifying the loss function and optimizer.
+
+Good work on using categorical_crossentropy loss and rmsprop optimizer.
+Further reading: Overview of Gradient descent optimizers
+
+The submission uses model checkpointing to train the model and saves the model weights with the best validation loss.
+
+The submission loads the model weights that attained the least validation loss.
+
+Accuracy on the test set is 60% or greater.
+
+Superb work!
+
+The submission includes a function that takes a file path to an image as input and returns the dog breed that is predicted by the CNN.
+
+Step 6: Write Your Algorithm
+The submission uses the CNN from Step 5 to detect dog breed. The submission has different output for each detected image type (dog, human, other) and provides either predicted actual (or resembling) dog breed.
+
+Step 7: Test Your Algorithm
+The submission tests at least 6 images, including at least two human and two dog images.
+
+Good set of sample images, some humans and dogs to test the algorithm. Includes good ideas for next direction to take this for improvement.
